@@ -1,0 +1,6 @@
+C:\Users\Daniel\Desktop\Dysk Google\BackupApp\BackupApp\BackupApp\bin\Debug\BackupApp.exe.config
+C:\Users\Daniel\Desktop\Dysk Google\BackupApp\BackupApp\BackupApp\bin\Debug\BackupApp.exe
+C:\Users\Daniel\Desktop\Dysk Google\BackupApp\BackupApp\BackupApp\bin\Debug\BackupApp.pdb
+C:\Users\Daniel\Desktop\Dysk Google\BackupApp\BackupApp\BackupApp\obj\Debug\BackupApp.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Desktop\Dysk Google\BackupApp\BackupApp\BackupApp\obj\Debug\BackupApp.exe
+C:\Users\Daniel\Desktop\Dysk Google\BackupApp\BackupApp\BackupApp\obj\Debug\BackupApp.pdb
