@@ -40,6 +40,13 @@ namespace BackupApp
             }
             
         }
+        public Dictionary<String, Boolean> getStatus() {
+            Dictionary<String, Boolean> status = new Dictionary<string, bool>();
+            status["target"] = (!this.targetStatus.Equals("File does not exist.")) ? true : false;
+            status["destination"] = (!this.destinationStatus.Equals("File does not exist.")) ? true : false;
+            status["settings"] = (!this.settingsStatus.Equals("File does not exist.")) ? true : false;
+            return status;
+        }
     }
 }
 

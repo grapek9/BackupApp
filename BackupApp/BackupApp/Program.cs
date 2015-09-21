@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using creator;
 
 namespace BackupApp
 {
@@ -13,6 +14,7 @@ namespace BackupApp
             Console.WriteLine("Checking for target/destination files");
             checkFilesClass CheckFiles = new checkFilesClass();
             CheckFiles.status();
+            createFiles.makeFiles(CheckFiles);
             Console.ReadKey();
         }
     }
