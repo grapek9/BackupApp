@@ -14,7 +14,11 @@ namespace BackupApp
             Console.WriteLine("Checking for target/destination files");
             checkFilesClass CheckFiles = new checkFilesClass();
             CheckFiles.status();
+            Console.WriteLine("\n\n Creating Missing Files, \n Status:");
+
             createFiles.makeFiles(CheckFiles);
+            
+            CheckFiles.status();
             Console.ReadKey();
         }
     }

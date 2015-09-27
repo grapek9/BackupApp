@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BackupApp;
+using System.IO;
 
 namespace creator
 {
@@ -16,7 +17,8 @@ namespace creator
         }
         private static void createMissingFiles(Dictionary<String, Boolean> status) {
             foreach (KeyValuePair<String, bool> kvp in status) {
-                Console.WriteLine(kvp.Key+" "+kvp.Value);
+                //Console.WriteLine(kvp.Key+" "+kvp.Value);
+                if (kvp.Value == false) { File.Create(kvp.Key+"File.txt"); }
             }
         }
     }
