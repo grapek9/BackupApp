@@ -22,15 +22,15 @@ namespace BackupApp
         }
         private void createDestinationFolders(String destination) {
             Directory.CreateDirectory(destination);
+            copyFiles(destination);
         }
         private void checkForDestinationFolders(String destination) {
-            String dayOfBackup = DateTime.Today.ToString("d").Replace("/","-");
+            String dayOfBackup = DateTime.Now.ToString().Replace("/", "-").Replace(":", "-").Replace(" ", "-");
             if (!Directory.Exists(destination+"/Backup"+dayOfBackup)) {
                 createDestinationFolders(destination + "/Backup" + dayOfBackup);
-                Console.WriteLine("test");
-            }
+            } 
         }
-        private void copyFiles() {
+        private void copyFiles(String destination) {
         }
     }
 }
