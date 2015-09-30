@@ -1,6 +1,1 @@
-C:\Users\Daniel\Desktop\Dysk Google\BackupApp\BackupApp\BackupApp\bin\Debug
-C:\Users\Daniel\Desktop\Dysk Google\BackupApp\BackupApp\BackupApp\bin\Debug
-C:\Users\Daniel\Desktop\Dysk Google\BackupApp\BackupApp\BackupApp\bin\Debug
-C:\Users\Daniel\Desktop\Dysk Google\BackupApp\BackupApp\BackupApp\bin\Debug
-C:\Users\Daniel\Desktop\Dysk Google\BackupApp\BackupApp\BackupApp\bin\Debug
-C:\Users\Daniel\Desktop\Dysk Google\BackupApp\BackupApp\BackupApp\bin\Debug\sadasd\sdsad\sadasd
+C:\Users\Daniel\Documents\My Games\Sid Meier's Civilization 5
